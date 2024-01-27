@@ -1,3 +1,8 @@
+// Clase 2: Funciones
+
+// Actividad 1: Proyecto del aula anterior
+// descargamos los archivos del repositorio https://github.com/alura-es-cursos/2035-logica-programacion-2/tree/Aula2
+
 let numeroSecreto = generarNumeroSecreto();
 let intentos = 0;
 
