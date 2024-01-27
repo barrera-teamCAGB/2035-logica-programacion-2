@@ -12,6 +12,13 @@
 // Actividad 4: Genera un numero aleatorio
 // todas las funciones por buena practica deben contener al final el return; regresen o no un valores, podemos utilizar variables de bloque que solo funcionaran dentro de la funcion y podemos devolver con return esa o esas variables por ejemplo return variable1; o variables globales de largo alcance, hay que tener cuidado con ellas para no repetir o crear confuncion, en la funcion asignarTextoElemento no regresa ningun valor y en la funcion generarNumeroSecreto regresara un valor
 
+// Actividad 5: Anatomia de una funcion
+// Palabra clave function: Se utiliza para declarar una función en JavaScript.
+// Las funciones en JavaScript pueden tener un nombre. De hecho, es una práctica común dar un nombre descriptivo a las funciones para facilitar la lectura y comprensión del código. Estos nombres se utilizan para llamar a la función posteriormente o hacer referencia a ella dentro del propio código, lo que te permite reutilizar la función en diferentes partes del programa.
+// Los paréntesis en una función en JavaScript se utilizan para contener los argumentos que recibe la función, lo que permite pasar información a la función e influir en su comportamiento y resultados.
+// La palabra clave "return" no es obligatoria en JavaScript, pero se utiliza con frecuencia para especificar un valor que la función debe devolver.
+// El cuerpo de una función en JavaScript está delimitado por llaves {}
+
 let numeroSecreto = generarNumeroSecreto();
 let intentos = 0;
 
