@@ -45,3 +45,11 @@ function intentoUsuario() {
 ///////////// Actividad 7: Para saber mas: diferencia entre html, css y javascript /////////////
 // articulo https://www.aluracursos.com/blog/html-css-javascript-cuales-son-las-diferencias
 ///////////// fin de la actividad 7 /////////////
+
+
+///////////// Actividad 8: Desafio: hora de practicar /////////////
+// se creara una nueva copia del siguiente repositorio, ahi se realizaran los ejercicios
+// https://github.com/alura-es-cursos/js-curso-2/tree/main
+// en github se llama js-curso-2
+// el resultado de los desafios se encuentra en https://github.com/barrera-teamCAGB/js-curso-2.git
+///////////// fin de la actividad 8 /////////////
