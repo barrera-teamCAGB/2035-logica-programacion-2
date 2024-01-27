@@ -24,6 +24,20 @@
 // recordar que el querySelector obtenemos el objeto por el cual podemos obtener posteriormente mas datos como su status, valor, etc, y con document.getElementById obtenermos el elemnto con ese id y de ahi podemos saber mas datos como su valor estatus etc, digamos que de las 2 formas se puede trabajar pero en ciertos casos es mas facil con el id
 // los input aunque en html esten como tipo numero nos estara dando un string paso lo mismo con el promt, por lo cual sera necesario usar parseInt, en cosas mas avanzadas un usuario puede alterar el html pero nopodra alterar el .js por cual aqui es donde viene y existen las validacions de javascript, ya que las de html son modificables facilmente, y por lo cual sera necesario usar el triple = para comparar peras con peras  
 
+// Actividad 7: Funcion que verifica numeros
+// la opcion A es la correcta
+/* function verificarNumero(numero) {
+  if (numero > 0) {
+    console.log("El número es positivo.");
+  } else if (numero < 0) {
+    console.log("El número es negativo.");
+  } else {
+    console.log("El número es zero.");
+  }
+} */
+
+
+
 let numeroSecreto = generarNumeroSecreto();
 let intentos = 0;
 
