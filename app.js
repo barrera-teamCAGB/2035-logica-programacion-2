@@ -36,6 +36,12 @@
   }
 } */
 
+// Actividad 8: Para saber más: funciones con JavaScript
+// varias formas de crear funcion, esto dependera de sise usa o no parametros, si se regresa o no un valos y las simplificadas
+// funcion con y sin parametros devuelven o no un valor function nombre(prametro1, parametro2, ...)  {return;} las mas basicas y usadas por mucho tiempo
+// ahora las funciones se han simplicado y se estan usando mas amenudo
+// Funcio anônima	let saludo = function() { ... };	Definición de una función sin nombre local.
+// Funciones de flecha	let cuadrado = x => x * x;	son abreviaciones 
 
 
 let numeroSecreto = generarNumeroSecreto();
