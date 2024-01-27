@@ -40,3 +40,8 @@ function intentoUsuario() {
 //<button onclick="alert('se dio click al boton');" class="container__boton">Intenta</button>
 // Aunque esta es una alternativa válida, generalmente es preferible crear funciones separadas para mantener el código más limpio y organizado.
 ///////////// fin de la actividad 6 /////////////
+
+
+///////////// Actividad 7: Para saber mas: diferencia entre html, css y javascript /////////////
+// articulo https://www.aluracursos.com/blog/html-css-javascript-cuales-son-las-diferencias
+///////////// fin de la actividad 7 /////////////
