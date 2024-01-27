@@ -33,3 +33,10 @@ function intentoUsuario() {
     alert ("click desde el boton");
 }
 ///////////// fin de la actividad 5 /////////////
+
+
+///////////// Actividad 6: Funcion onclick /////////////
+// en esta actividad la opcion correcta es B, mas in encambio cabe mencionar que en html se puede escribir codigo javascript directo en los eventos, ejemplo
+//<button onclick="alert('se dio click al boton');" class="container__boton">Intenta</button>
+// Aunque esta es una alternativa válida, generalmente es preferible crear funciones separadas para mantener el código más limpio y organizado.
+///////////// fin de la actividad 6 /////////////
