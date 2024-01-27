@@ -13,3 +13,9 @@ let parrafo = document.querySelector('p');
 parrafo.innerHTML = "Indica un numero del 1 al 10"
 ///////////// fin de la actividad 3 /////////////
 
+
+///////////// Actividad 4: Manipulando contenido html con javascript /////////////
+// en el ejercicio propuesto la respuesta correcta fue D
+// al método document.querySelector() debe recibir una cadena como argumento y debe estar entre comillas para que este correcto
+// innerHTML debe tener un valor asignado debe estar entre comillas (simples o dobles) para que se trate como una cadena de texto. Sin las comillas, JavaScript intentará interpretar el texto como una variable, lo que provocará un error si la variable no está definida.
+///////////// fin de la actividad 4 /////////////
