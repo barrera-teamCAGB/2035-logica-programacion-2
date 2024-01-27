@@ -19,6 +19,11 @@
 // La palabra clave "return" no es obligatoria en JavaScript, pero se utiliza con frecuencia para especificar un valor que la función debe devolver.
 // El cuerpo de una función en JavaScript está delimitado por llaves {}
 
+// Actividad 6: Capturando el valor en un input
+// cuando nuestro html tiene mas de una etiqueta igual como puede ser mas de 2 input, ya no es recomendable usar el querySelector ya que no sabra cual de todos los elemento tomara, por lo cual en nuestro html los elemntos que tengamos pensados utilizar en javascript le asignaremos un identificador el cual se hace con el atributo id dentro de la etiqueta los cuales no deberan repetirse y cuando queramos cambiar alguna propiedad de todos sera con la clase eso se vera despues, ela forma de leer la caja de txto de nuetro html sera con document.getElementById('valorUsuario').value
+// recordar que el querySelector obtenemos el objeto por el cual podemos obtener posteriormente mas datos como su status, valor, etc, y con document.getElementById obtenermos el elemnto con ese id y de ahi podemos saber mas datos como su valor estatus etc, digamos que de las 2 formas se puede trabajar pero en ciertos casos es mas facil con el id
+// los input aunque en html esten como tipo numero nos estara dando un string paso lo mismo con el promt, por lo cual sera necesario usar parseInt, en cosas mas avanzadas un usuario puede alterar el html pero nopodra alterar el .js por cual aqui es donde viene y existen las validacions de javascript, ya que las de html son modificables facilmente, y por lo cual sera necesario usar el triple = para comparar peras con peras  
+
 let numeroSecreto = generarNumeroSecreto();
 let intentos = 0;
 
