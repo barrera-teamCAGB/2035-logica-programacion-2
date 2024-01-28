@@ -10,6 +10,29 @@
 // recordamos el uso abreviado de inrementar una variable con doble ++ esto lo acemos en la variable intentos++ cada que el usuario no acierta si incrementara de uno en uno
 // usamos el templete string que es mas facil para mesclar texto, variables y codigo en una sola linea sin necesidad de concatenar y la simplicacion del if (OPERADOR TERNARIO) donde es cuando solo hay 2 condiciones rapidas, esto para no crear mas codigo y hacer mas condiciones con codigo estas dos cosas la vemos en cuando el usuario acerta en el numero aqui la linea asignarTextoElemento('p',`Acertaste el número en ${intentos} ${(intentos === 1) ? 'vez' : 'veces'}`);
 
+// Actividad 4: Calculadora de promedio y situación del alumno
+// Ejercicio, calcular el promedio de 4 notas y de ser mayor o igual a 5 aprobo, crear 2 funciones una para calcular y la otra para evaluar, aqui la solucion 
+/*
+let nota1 = 7;
+let nota2 = 7;
+let nota3 = 7;
+let nota4 = 7;
+
+function promedio(nota1, nota2, nota3, nota4) {
+  return (nota1+nota2+nota3+nota4)/4;
+}
+
+function verificarAprobacion(resultadoPromedio) {
+  return (resultadoPromedio >= 5) ? "aprovaste" : "Repovaste";
+}
+
+let resultadoPromedio = promedio(nota1,nota2,nota3,nota4);
+console.log(resultadoPromedio);
+let res = verificarAprobacion(resultadoPromedio);
+console.log(res);
+ */
+
+
 let numeroSecreto = generarNumeroSecreto();
 let intentos = 0;
 
