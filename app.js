@@ -32,6 +32,18 @@ let res = verificarAprobacion(resultadoPromedio);
 console.log(res);
  */
 
+// Actividad 5: Limpiar campo
+// al llamar a un elemnto de html recordar que se puede hacer con id ya sea por document.getElementById y entre parentesis y comillas dobles o simple el id de ese elemnto pero tambien lo podemos hacer con document.querySelector y entre comillas seguido el numeral o signo de gato el id del elemnto y despues en los dos casos .value
+// aqui el segundo caso con una de las lineas del codigo
+// document.querySelector('#valorUsuario').value = '';
+// esa linea tambien la podemos colocar en una variable y quitarle el .value y porteriormente esa variable usarla y ponerle el .value y asiganrle el valor qe queramos, aqui el ejemplo
+// let valorInput = document.querySelector('#valorUsuario');
+// valorInput.value = '';
+// para mejor el codigo aqui crearemos una funcion para que el foco este en esa caja de texto
+// ahora cambiaremos el atributo de un elemento, sera la etiqueta del boton desactivado que esta en html para eso usaremos el dom nuevamente puede ser por getElementById o por querySelector, recordar la sintaxis el primero no lleva # y el segundo si, despues la opcion de remover un atributo la cual es .removeAttribute donde nos pedira cual atributo queremos remover este al ser texto lo pondremos entre comillas y quedaria asi
+// document.getElementById('reiniciar').removeAttribute('disabled');
+
+
 
 let numeroSecreto = generarNumeroSecreto();
 let intentos = 0;
