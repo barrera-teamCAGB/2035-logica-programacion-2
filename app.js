@@ -1,3 +1,11 @@
+// Clase 3: Reiniciando el juego
+
+// Actividad 1: Proyecto del aula anterior
+// descargamos los archivos del repositorio https://github.com/alura-es-cursos/2035-logica-programacion-2/tree/Aula3
+
+// Actividad 2: Mensaje, si acertó
+// dentro de una funcion podemos llamar a otra funcion este es el caso de verificarIntento() adentro llamamos a asignarTextoElemento (), y en el caso de esta ultima funcion la reutilizaremos para cambiar el texto y colocar mensajes asi ya no sera necesario crear mas codigo, tambien veremos la condicion if cuando valida el numero del usuario con el secreto, aqui ya se usara el triple = dado que ya estamos usando numero con numero y no como antes de un string con un numero
+
 let numeroSecreto = generarNumeroSecreto();
 let intentos = 0;
 
