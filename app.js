@@ -6,6 +6,10 @@
 // Actividad 2: Mensaje, si acertó
 // dentro de una funcion podemos llamar a otra funcion este es el caso de verificarIntento() adentro llamamos a asignarTextoElemento (), y en el caso de esta ultima funcion la reutilizaremos para cambiar el texto y colocar mensajes asi ya no sera necesario crear mas codigo, tambien veremos la condicion if cuando valida el numero del usuario con el secreto, aqui ya se usara el triple = dado que ya estamos usando numero con numero y no como antes de un string con un numero
 
+// Actividad 3: Mensaje de numero intentos
+// recordamos el uso abreviado de inrementar una variable con doble ++ esto lo acemos en la variable intentos++ cada que el usuario no acierta si incrementara de uno en uno
+// usamos el templete string que es mas facil para mesclar texto, variables y codigo en una sola linea sin necesidad de concatenar y la simplicacion del if (OPERADOR TERNARIO) donde es cuando solo hay 2 condiciones rapidas, esto para no crear mas codigo y hacer mas condiciones con codigo estas dos cosas la vemos en cuando el usuario acerta en el numero aqui la linea asignarTextoElemento('p',`Acertaste el número en ${intentos} ${(intentos === 1) ? 'vez' : 'veces'}`);
+
 let numeroSecreto = generarNumeroSecreto();
 let intentos = 0;
 
