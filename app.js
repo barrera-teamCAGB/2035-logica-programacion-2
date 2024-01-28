@@ -79,6 +79,11 @@ console.log(res);
    
   Esta opción es correcta porque divide la funcionalidad en dos funciones separadas, calcularDoble y calcularTriple, lo que mejora la modularidad y facilita la comprensión del código. Además, utiliza variables explícitas (doble y triple) para almacenar los resultados, lo que hace que el código sea más legible. */
 
+// Actividad 8: Para saber más: template strings
+// giua https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Template_literals
+
+
+
 
 let numeroSecreto = generarNumeroSecreto();
 let intentos = 0;
