@@ -47,6 +47,37 @@ console.log(res);
 // aqui veremos lo mencionado en alguna ocacion que es una funcion llama a una o mas funciones esta funcion debe estar fuera de de alguna de las funciones que llamaremos si no puede probocar ciclos infinitos aqui, con el codigo de abajo tenemos ya funciones creadas las cuales con la nueva funcion de reiniciar juego ahi vemos como se realiza esto
 // asi como existe la opcion de quitar un atributo esta el de agregar uno, para esto se ocupa el dom con la opcion setAttribute la cual requiere de 2 parametros, el atributo y su valor estos seran en cadena de texto por lo cual van entre comillas y tambien puede ser llamado el elemento por medio de si di con selector o elementID aqui el ejempo en nuestro codigo     document.querySelector('#reiniciar').setAttribute('disabled','true');
 
+// Actividad 7: Adapta función
+// ejercicio; mejor la siguiente funcion
+/* function calcularDobleTriple(numero) {
+    const doble = numero * 2;
+    const triple = numero * 3;
+  
+    return `El doble de ${numero} es ${doble} y el triple es ${triple}.`;
+  }
+  
+  const numero = 5;
+  const resultado = calcularDobleTriple(numero);
+  console.log(resultado);
+   */
+
+
+  // aqui la mejora opcion b es la correcta
+/*   function calcularDoble(numero) {
+    return numero * 2;
+  }
+  
+  function calcularTriple(numero) {
+    return numero * 3;
+  }
+  
+  const numero = 5;
+  const doble = calcularDoble(numero);
+  const triple = calcularTriple(numero);
+  
+  console.log(`El doble de ${numero} es ${doble} y el triple es ${triple}.`);
+   
+  Esta opción es correcta porque divide la funcionalidad en dos funciones separadas, calcularDoble y calcularTriple, lo que mejora la modularidad y facilita la comprensión del código. Además, utiliza variables explícitas (doble y triple) para almacenar los resultados, lo que hace que el código sea más legible. */
 
 
 let numeroSecreto = generarNumeroSecreto();
