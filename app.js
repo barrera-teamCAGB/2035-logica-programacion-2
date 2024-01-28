@@ -43,6 +43,10 @@ console.log(res);
 // ahora cambiaremos el atributo de un elemento, sera la etiqueta del boton desactivado que esta en html para eso usaremos el dom nuevamente puede ser por getElementById o por querySelector, recordar la sintaxis el primero no lleva # y el segundo si, despues la opcion de remover un atributo la cual es .removeAttribute donde nos pedira cual atributo queremos remover este al ser texto lo pondremos entre comillas y quedaria asi
 // document.getElementById('reiniciar').removeAttribute('disabled');
 
+// Actividad 6: Función reiniciar juego
+// aqui veremos lo mencionado en alguna ocacion que es una funcion llama a una o mas funciones esta funcion debe estar fuera de de alguna de las funciones que llamaremos si no puede probocar ciclos infinitos aqui, con el codigo de abajo tenemos ya funciones creadas las cuales con la nueva funcion de reiniciar juego ahi vemos como se realiza esto
+// asi como existe la opcion de quitar un atributo esta el de agregar uno, para esto se ocupa el dom con la opcion setAttribute la cual requiere de 2 parametros, el atributo y su valor estos seran en cadena de texto por lo cual van entre comillas y tambien puede ser llamado el elemento por medio de si di con selector o elementID aqui el ejempo en nuestro codigo     document.querySelector('#reiniciar').setAttribute('disabled','true');
+
 
 
 let numeroSecreto = generarNumeroSecreto();
