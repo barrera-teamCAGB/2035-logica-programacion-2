@@ -43,6 +43,9 @@
 // Funcio anônima	let saludo = function() { ... };	Definición de una función sin nombre local.
 // Funciones de flecha	let cuadrado = x => x * x;	son abreviaciones 
 
+// Actividad 9: Desafio: hora de practicar
+// usaremos un nuevo repositorio para estos desafios
+// https://github.com/barrera-teamCAGB/js-curso.git aqui esta todos los desafios
 
 let numeroSecreto = generarNumeroSecreto();
 let intentos = 0;
