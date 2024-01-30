@@ -1,3 +1,8 @@
+// Clase 4: Listas
+
+// Actividad 1: Proyecto del aula anterior
+// Copiamos el repositorio de Aula 4
+
 let numeroSecreto = 0;
 let intentos = 0;
 let listaNumerosSorteados = [];
