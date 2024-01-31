@@ -13,6 +13,26 @@
 // para el ultimo elemento es total menos uno variable[variable.legth-1];
 // una posicion no valida o negativa marcara como undefined
 
+// Actividad 03: Manipulación de listas en JS
+// Creamos la siguiente lista
+/*  
+creamos nuestra variable
+let listaCompras = [];
+
+colocamos valores con push
+listaCompras.push("Manzana");
+listaCompras.push("Arroz");
+listaCompras.push("Leche");
+listaCompras.push("Pan");
+listaCompras.push("Carne");
+ 
+mostramos la cantidad de elemntos de la lista
+console.log(listaCompras.length);
+
+Accedemos a lugar numero 4 de la lista que es pan
+console.log(listaCompras[3]);
+*/
+
 let numeroSecreto = 0;
 let intentos = 0;
 let listaNumerosSorteados = [];
