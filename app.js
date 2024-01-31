@@ -3,6 +3,16 @@
 // Actividad 1: Proyecto del aula anterior
 // Copiamos el repositorio de Aula 4
 
+// Actividad 2: Arreglos
+// es una variable que se maneja como una lista, la declaracion de un arreglo es let nomVaribale = ["dato1", 1, ...];
+// para declarar una vacia basta con poner los corchetes vacios []
+// puede tener datos string y numeros combianados, lo ideal es que solo sea de uno, pero aun asi se puede hacer
+// para agregar elementos nuevos se pueden hacer al final en medio o al inicio, el mas usado es al final, esto es con el meto push variable.push[3]; estwe se agrega al final
+// para saber el tamaño de la lista es variable.length;
+// para acceder a un elemento en particular; recordar que se empieza con cero como el primer elemento, por lo cual para el primer elemento seria variable[0];
+// para el ultimo elemento es total menos uno variable[variable.legth-1];
+// una posicion no valida o negativa marcara como undefined
+
 let numeroSecreto = 0;
 let intentos = 0;
 let listaNumerosSorteados = [];
