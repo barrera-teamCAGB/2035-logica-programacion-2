@@ -50,6 +50,23 @@ console.log(listaCompras[3]);
 // con esto al llegar al maximo tope de nuestra lista ya no podra seguir metiendo mas a ella
 // otra solucion es colocar un numero maximo de intentos y cuando llegue a este terminarlo, es otra forma de parar la recursividad, este se realizo en el otro cuerso y se puede implementar aqui queda de tarea
 
+// Actividad 6: Sorteando libros
+// esta actividad requide lo siguiente
+// El sorteo debe hacerse de manera que todos los libros tengan la oportunidad de ser sorteados al menos una vez, y después de eso, el sorteo debe comenzar de nuevo. 
+/* aqui en breve ejemplo de como quedaria
+let listaDeLibrosSorteados = [];
+let numeroLimite = 10;
+
+function sorteLibro() {
+	let libroElegido = parseInt(Math.random() * numeroLimite + 1);
+  listaDeLibrosSorteados.push(libroElegido);
+	let cantidadDeLibrosSorteados = listaDeLibrosSorteados.length;  
+	if (cantidadDeLibrosSorteados == numeroLimite) {
+        listaDeLibrosSorteados = [];
+	}
+}
+sorteLibro();
+*/
 
 
 let numeroSecreto = 0;
