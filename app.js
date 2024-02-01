@@ -68,6 +68,30 @@ function sorteLibro() {
 sorteLibro();
 */
 
+// Actividad 07: Para saber más: ¿Vamos a leer más sobre listas?
+// Un array, arreglo o lista en JavaScript es una estructura de datos que permite almacenar y organizar múltiples valores en una sola variable. Los valores en un array pueden ser de cualquier tipo de dato, como números, strings, objetos, otros arrays, y así sucesivamente. Los arrays en JavaScript son indexados, lo que significa que cada valor dentro de ellos está asociado con un índice numérico, generalmente comenzando desde el índice 0.
+
+// Creando un array
+// Puedes crear un array en JavaScript declarando una variable y asignándole valores entre corchetes [].
+// puede declararce vacio si es necesario
+// let varLista = [];
+// let varLista = [2, 4, 6, ...];
+
+// Accediendo a los valores Los elementos de un array se acceden mediante índices numéricos, que comienzan en 0.
+//console.log(varLista[0]); // Salida: 2
+//console.log(varLista[2]); // Salida: 6
+
+// Añadiendo nuevos elementos
+// Para agregar un elemento al final del array, puedes usar el método push.
+// varLista.push("Fresa");
+// console.log(frutas); // Salida: [2, 4, 6, "Fresa"];
+
+// Eliminando el último elemento
+// Para eliminar el último elemento, puedes usar el método pop.
+// frutas.pop();
+
+
+
 
 let numeroSecreto = 0;
 let intentos = 0;
