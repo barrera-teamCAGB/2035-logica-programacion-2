@@ -44,6 +44,13 @@ console.log(listaCompras[3]);
 // return generarNumeroSecreto();
 // al usar la recursividad podemos cometer el error de ciclar el programa y cause error fatal para eso hay que tener cuidado con la condicion de salida
 
+// Actividad 05: Resolviendo la Recursividad
+// el roblema que hubo es que no existia un numero maximo para llenar nuestra lista y eso proboco que fuera infinito, por lo cual una de las soluciones es colocarle un tope o un maximo a esa lista para que cuando este llena termine y ya no acepte mas para eso aqui el codigo que se uso el cual es dentro de una condicion if
+// if (listaNumerosSorteados.length == numeroMaximo) {
+// con esto al llegar al maximo tope de nuestra lista ya no podra seguir metiendo mas a ella
+// otra solucion es colocar un numero maximo de intentos y cuando llegue a este terminarlo, es otra forma de parar la recursividad, este se realizo en el otro cuerso y se puede implementar aqui queda de tarea
+
+
 
 let numeroSecreto = 0;
 let intentos = 0;
