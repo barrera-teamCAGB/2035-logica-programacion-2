@@ -33,6 +33,18 @@ Accedemos a lugar numero 4 de la lista que es pan
 console.log(listaCompras[3]);
 */
 
+// Actividad 04 Arreglos: Recursividad
+// se alamacenaran todos los numeros sorteados en una lista "listaNumerosSorteados" para comparar despues si ya fue sorteaado ya no volverlo a jugar y colocar uno nuevo
+// con una nueva funcion que incluye las listas verificamos si una variable o elemento que queremos saber esta incluido en ella para usaremos .include() el cual puede recibir un parametro en este caso sera el numero que se genero como secreto y quedaria dentro de un if para devolvernos un valor booleano
+// "if (listaNumerosSorteados.includes(numeroGenerado)) {"
+// el .inlcude recorre todo el arreglo para seber si ya existe
+// cuando el elemento no esta en la lista lo guardamos con push para irlo agregando a nuestra lista
+// listaNumerosSorteados.push(numeroGenerado);
+// Recursividad: la funcion que esta ahi se llama a si misma
+// return generarNumeroSecreto();
+// al usar la recursividad podemos cometer el error de ciclar el programa y cause error fatal para eso hay que tener cuidado con la condicion de salida
+
+
 let numeroSecreto = 0;
 let intentos = 0;
 let listaNumerosSorteados = [];
